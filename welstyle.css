@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(bg3.jpg) no-repeat;
+	/* background: #d4e0ee; */
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar{
+	height: 80px;	
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	
+}
+.logo{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-family: big john;
+	padding: 20px 0;
+	width: 20%;
+	float: left;
+	margin-left: 20px;
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 20px
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'Roboto', sans-serif;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+ /* /.wrapper .wel_center{
+	position: absolute;
+	right: 50%;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif; 
+	user-select: none; */
+/* }
+.center h1{
+     text-align: center;
+     color:white; */ */
+
+/* } */
+ /* .wel_center h1{
+    color: white;
+	font-size: 40px;
+	font-weight: bold;
+	width:900px;
+	text-align: center; 
+}  */ */
+
+/* .wel_text h1 {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+    color: yellowgreen;
+    
+} */
+
+.wrapper .center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif; 
+	user-select: none;
+
+}
+.center h1{
+	/* color: orangered; */
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	width:900px;
+	text-align: center;
+    /* margin: 10% 30%; */
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+
+	
+}
+.center h2{
+    
+	font-size: 50px;
+	font-weight: bold;
+	width:900px;
+	text-align:left;
+    margin: 1% 0%;
+    margin-left: 10%;
+    color:white;
+	align-items: center;
+}
+
+.buttons_wel button{
+    height: 60px;
+	width: 300px;
+	font-size:18px;
+	text-decoration:none;
+	font-weight: bold;
+	color: #fff3b3;
+	background:red;
+	border: 1px solid #cc0000;
+	outline: none;
+	border-radius: 25px;
+	
+	
+}
+.buttons_wel button{
+    cursor : Pointer;
+	
+}
+.buttons_wel .btn6{
+	margin-left: 150px;
+    margin-bottom:30px; 
+
+
+   
+}
+.buttons_wel .btn4{
+    margin-left: 20%;
+}
+
+.buttons_wel button:hover{
+	background: maroon;
+	/* background: #cc0000; */
+	transition: 0.3s ease background-color;
+	
+}
+
+
+/* .buttons_wel  button{
+height: 50px;
+width: 200px;
+border-radius: 30px;
+background-color: white;
+border: 2px solid #A2D9ce;
+transition: 2s;
+} */
+
+
+.extra{color:WHITE;text-decoration:none;}
+
+
+@media (max-width:1400px){
+	.center{
+		margin: 0;
+	}
+}
